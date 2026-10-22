@@ -256,6 +256,8 @@ No se afirma que las pruebas de integración o de concurrencia estén completas 
 
 Se utilizó una herramienta de IA como apoyo durante el análisis del enunciado, la exploración de alternativas de diseño, la preparación y revisión del código, la identificación de casos límite y la organización de la documentación.
 
+Ante la falta del historial Git original, se inicializó un repositorio y se organizaron commits temáticos a partir de los scripts SQL disponibles, la estructura actual del proyecto y las sentencias que aún estaban visibles en la caché de Oracle. Esta secuencia es una reconstrucción posterior y no representa necesariamente las fechas ni el orden exactos del desarrollo original. La caché SQL es parcial y temporal, por lo que se utilizó solo como referencia complementaria.
+
 ## 13. Cierre
 
 La decisión principal de esta solución es no confundir un reintento o un timeout con una prueba de rechazo y no corregir automáticamente un ledger cuando la evidencia es insuficiente. Para los casos consistentes, el procedimiento permite completar o reconocer la conciliación; para los casos ambiguos, conserva los datos, deja trazabilidad y deriva la decisión a revisión manual. Antes de utilizar un enfoque similar en producción, deben validarse las reglas con los responsables del proveedor y de contabilidad, y completar las pruebas de integración y concurrencia.
