@@ -1,0 +1,2 @@
+-- Pruebas exploratorias de reglas. No inserta movimientos.
+-- La logica integrada de conciliacion esta en 11_reconcile_payment.sql.

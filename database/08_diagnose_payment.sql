@@ -1,0 +1,2 @@
+-- Version historica. No ejecutar despues de 11_reconcile_payment.sql.
+-- CREATE OR REPLACE podria sustituir la version final por una version anterior.
